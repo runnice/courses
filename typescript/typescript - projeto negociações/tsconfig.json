@@ -3,7 +3,9 @@
         "outDir": "dist/js",
         "target": "ES6", //especifica compatibilidade com a versão do EcmaScript
         "noEmitOnError": true, //não aceitar compilação ao menos que o código esteja correto.
-        "noImplicitAny": true //impede que receba como padrão uma variável sem tipo determinado.
+        "noImplicitAny": true, //impede que receba como padrão uma variável sem tipo determinado.
+        "removeComments": true, // Remover todos os comentários ao copilar.
+        "strictNullChecks": true
     },
     "include": ["app/**/*"]
 }

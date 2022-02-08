@@ -1,10 +1,13 @@
 export abstract class View<T>{
     
     protected elemento: HTMLElement;
-    private escapar = false.valueOf;
+    private escapar = false;
     
-    constructor(seletor: string, escapar: boolean){
-    this.elemento = document.querySelector(seletor);
+    constructor(seletor: string, escapar?: boolean){
+    this.elemento = document.querySelector(seletor) as HTMLElement;
+    if (escapar){
+        this.escapar = escapar;
+    }
     }
 
     protected abstract template(model: T): string;

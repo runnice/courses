@@ -23,7 +23,7 @@ export class TransferenciaService {
   }
 
   private hidratar(transferencia: any){
-    transferencia.data = new Date();
+    transferencia.data = new Date()
 
   }
 

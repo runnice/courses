@@ -4,9 +4,9 @@ export default abstract class ShareButton{
     eventHandler: EventHandler;
     clazz: string;
 
-    constructor(clazz: string){
-        this.eventHandler = new EventHandler();
+    constructor(eventHandler: EventHandler, clazz: string){
         this.clazz = clazz;
+        this.eventHandler = eventHandler;
         
     }
 

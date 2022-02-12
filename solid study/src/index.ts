@@ -1,9 +1,11 @@
 import AbstractShareButton from "./AbstractShareButton";
+import DOMEventHandler from "./DOMEventHandler";
 import ShareButtonFacebook from "./ShareButtonFacebook";
 import ShareButtonLinkedIn from "./ShareButtonLinkedIn";
 import ShareButtonPrint from "./ShareButtonPrint";
 import ShareButtonTwitter from "./ShareButtonTwitter"
 
+const eventHandler =  new DOMEventHandler();
 
 const twitter: AbstractShareButton = new ShareButtonTwitter(".btn-twitter", "https://www.youtube.com/rodrigobranas");
 twitter.bind();

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack"
   },
-  "author": "Vinicius Oliveira",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "ts-loader": "^9.2.6",

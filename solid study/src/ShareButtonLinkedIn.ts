@@ -1,5 +1,5 @@
 
-import AbstractShareButton from "./AbstractShareButton";
+import AbstractShareButton from "./AbstractLinkShareButton";
 
 export default class ShareButtonLinkedIn extends AbstractShareButton{
     

@@ -1,15 +1,15 @@
 
-import AbstractShareButton from "./AbstractShareButton";
+import AbstractLinkShareButton from "./AbstractShareButton";
 
-export default class ShareButtonPrint extends AbstractShareButton{
+export default class ShareButtonPrint extends AbstractLinkShareButton{
     
-    constructor(clazz: string, url:string){
-        super(clazz, url);
+    constructor(clazz: string){
+        super(clazz);
 
     };
 
-    createLink(): string {
-        throw new Error("Unsupported Method Exception");
+    createAction() {
+        return () => window.print();
     }
 
 

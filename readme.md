@@ -1,1 +1,1 @@
-## My studies and challengers
+## My studies and challenges

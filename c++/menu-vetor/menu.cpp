@@ -16,9 +16,9 @@ int main(){
         cout<<"7 - Encerrar o programa "<<endl;
         cin>>op;
 
-        switch (op)        {
+        switch (op){
         case 1:
-            for int(i =0; i<10; i++){
+            for (int i =0; i<10; i++){
                 if(valores[i] ==0){
                 cout<<"Informe um valor"<<endl;
                 cin>>valores[i];
